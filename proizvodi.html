@@ -1,0 +1,125 @@
+<html lang="sr-Latn-RS">
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Proizvodi - Ćuk</title>
+		<link rel="icon" href="images/icon.png">
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="author" content="mailto:igorcuk.126.17@gmail.com"/>
+		<meta name="description" content="koje proizvode imamo u ponudi mozete videti ovde"/>
+		<meta name="keywords" content="limenka, energetsko pice, plava, narandzasta, crvena, zelena, crna"/>
+		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"><!-- fafa -->
+		<link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet"><!-- font -->
+		<link rel="stylesheet" type="text/css" href="css/style.css"/>
+	</head>
+	<body>
+		<div id="heder">
+			<div id="hLogo">
+				<a href="index.html">
+					<img src="images/hLogoBeli.png" alt="Slika loga kompanije"/>
+				</a>
+			</div>
+			<div id="hNavigacija" class="lista">
+				<ul id="dropmeni">
+					<li><a href="index.html">Početna</a></li>
+					<li><a href="oKompaniji.html">O kompaniji</a></li>
+					<li><a href="dogadjaji.html">Događaji</a></li>
+					<li><a href="proizvodi.html" class="activeA">Proizvodi</a>
+					</li>
+					<li><a href="saradnici.html">Saradnici</a></li>
+				</ul>
+			</div>
+			<div id="hForma" class="lista">
+				<ul>
+					<li><a href="#.html" onclick="openNav()">Log In</a></li>
+				</ul>
+			</div>
+			<div class="cleaner"></div>
+		</div>
+		<div id="sadrzaj">
+			<div id="sSlajder" class="sSlajderProizvodi">
+				<div class="ssTekst">
+					<h1 class="naslov">ĆUK SNAGU DAJE</h1>
+				</div>
+			</div>
+			<div id="sSadrzaj">
+				<div class="beloPolje">
+					<div class="dinamicki1proizvodi sakrivanje">
+					</div>
+				</div>
+				<div class="plavoPolje5">
+					<div class="container dinamicki1pproizvodi sakrivanje">
+					</div>
+				</div>
+				<div class="beloPoljeFix">
+					<div class="dinamicki2proizvodi sakrivanje">
+					</div>
+				</div>
+				<div class="plavoPolje6">
+					<div class="container dinamicki2pproizvodi sakrivanje">
+					</div>
+				</div>
+		</div>
+		<div id="futer">
+				<div id="fgDrustveneMreze">
+					<ul>
+						<li><a href="http://www.facebook.com" target="_blank"><i class="fa fa-facebook"></i></a></li>
+						<li><a href="http://www.twitter.com" target="_blank"><i class="fa fa-twitter"></i></a></li>
+						<li><a href="http://www.youtube.com" target="_blank"><i class="fa fa-youtube"></i></a></li>
+						<li><a href="http://www.instagram.com"  target="_blank"><i class="fa fa-instagram"></i></a></li>
+					</ul>
+				</div>
+				<div id="fdKopirajt">
+					<p>Copyright &copy; Ćuk i sinovi | Designed by <a href="oAutoru.html"> Igor Ćuk</a> | <a href="#.html">Dokumentacija</a></p>
+				</div>
+				
+		</div>
+		<div id="scrollToTop">
+			<img src="images/skrolTop.png" alt="Slika loga kompanije"/>
+		</div>
+		<div id="LogInForma" class="divDesnoForma">
+			<a href="javascript:void(0)" class="dugmeX" onclick="closeNav()">&times;</a>
+			<div class="formaNav">
+			<img src="images/hLogoCrni.png" alt="Slika loga kompanije"/>
+			<h2 class="podnaslovForma">PRIJAVI SE I POSTANI ĆUK ČLAN</h2>
+			<p class="pPodnaslovForma">Prijavi se sada i postani ponosni član Ćuk kartice! Kao vlasnik ove kartice imaćeš velike pogodnosti, bonuse, učestvovanja u nagradnim igrama i slično.</p>
+			<h2 class="podnaslovForma">PRIJAVI SE PREKO DRUŠTVENE MREŽE</h2>
+			<p class="pPodnaslovForma">Prijavljivanje preko društvenih mreža je lako, ne moraš da praviš nalog niti da pamtiš šifre, i jedan klik te deli od tvoje Ćuk kartice!</p>
+			<input type="button" class="googleDugme" id="guglDugme" value="Google"/>
+			<input type="button" class="facebookDugme" id="fejsDugme" value="Facebook"/>
+			<h2 class="podnaslovForma">PRIJAVI SE PREKO E-MAILA</h2>
+				<form method="get" action="">
+					<div class="formGrupa">
+						<input type="text" id="formaIme" placeholder="Ime *" value="" />
+						<p class="tekstGreska" id="formaImeKiks"></p>
+					</div>
+					<div class="formGrupa">
+						<input type="text" id="formaPrezime" placeholder="Prezime *" value="" />
+						<p class="tekstGreska" id="formaPrezimeKiks"></p>
+					</div>
+					<div class="formGrupa">
+						<input type="text" id="formaEmail" placeholder="Email *" value="" />
+						<p class="tekstGreska" id="formaEmailKiks"></p>
+					</div>
+					<div class="formGrupa">
+						<input type="password" id="formaSifra" placeholder="Sifra *" value="" />
+						<p class="tekstGreska" id="formaSifraKiks"></p>
+					</div>
+					<div class="formGrupa">
+						<input type="password" id="formaSifraPr" placeholder="Potvrdi Sifru *" value="" />
+						<p class="tekstGreska" id="formaSifraPrKiks"></p>
+					</div>
+					<div class="form-group">
+							<input type="checkbox" id="formaSlazemSe" name="SlazemSe" value="SlazemSe">
+							<span>Slažem se sa terminima usluge</span> 
+						<p class="tekstGreska" id="formaSlazemSeKiks"></p>
+                    </div>
+					<input type="button" class="dugmePotvrda" id="dugmePotvrdi" value="Potvrdi"/>			
+				</form>
+			</div>
+		</div>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/script.js"></script>
+	</body>
+</html>
